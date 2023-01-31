@@ -1,2 +1,6 @@
-
-/* Your CSS Code here. */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
