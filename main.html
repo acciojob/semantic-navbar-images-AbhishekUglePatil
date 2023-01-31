@@ -2,18 +2,24 @@
 <html>
     <head>
         <title>Semantic Navbar</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 10px;
+            justify-content: space-between;
+        }
+    </style>
     <body>
         <header>
             <nav>
-                
-                    
-                        <a href="https://www.amazon.com/" target="_blank">Home</a>
-                    
-                        <a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer" target="_blank">About us</a>
-                    
-                        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he" target="_blank">Contact Us</a>
-                
+                <div class="container">
+                <a href="https://www.amazon.com/" target="_blank">Home</a>
+                <a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer" target="_blank">About us</a>
+                <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he" target="_blank">Contact Us</a>
+            </div>
             </nav>
         </header>
         <!-- <span>
