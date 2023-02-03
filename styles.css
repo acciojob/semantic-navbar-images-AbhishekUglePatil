@@ -1,4 +1,4 @@
-.container {
+.holder {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
